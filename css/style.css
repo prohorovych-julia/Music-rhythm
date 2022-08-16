@@ -39,10 +39,28 @@ a {
     display: flex;
     flex-direction: column;
 }
+/*----------------------*/
+.title {
+    font-family:'CalSans';
+    color: #121212;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+.title span {
+    color: #FF6428;
+}
 
+/*----------------------*/
 .page {
     flex: 1 1 auto;
 }
+.page__main {
+}
+.page__store {
+}
+/*--------------------*/
 
 [class*="__container"] {
     max-width: 1230px;
@@ -67,8 +85,6 @@ a {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
-
 
 .menu__list {
     display: flex;
@@ -119,12 +135,7 @@ a {
     }
 
 }
-
-
 /*----------------------*/
-
-.page__main {
-}
 .main {
     padding-bottom: 80px;
 }
@@ -245,4 +256,47 @@ a {
         margin-bottom: 10px;
         margin-right: 0;
     {
+}
+
+/*-----------------*/
+
+.store {
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+.store__container {
+}
+.store__title {
+}
+.title {
+}
+.store__body {
+}
+
+.body-store {
+}
+.body-store__header {
+    display: flex;
+    justify-content: space-between;
+}
+.body-store__title {
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.08em;
+    color: #121212;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.body-store__all {
+}
+.body-store__items {
+}
+.body-store__item {
+}
+
+.item__image {
+}
+.item__title {
+}
+.item__price {
 }
